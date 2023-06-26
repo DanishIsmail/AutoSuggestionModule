@@ -35,7 +35,7 @@ const carsDetailsFind = async () => {
 
   if (!existingCarsCount || existingCarsCount == 0) {
     const carData = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 300; i++) {
       const car = {
         carName: faker.vehicle.vehicle(),
         manufacturer: faker.vehicle.manufacturer(),
